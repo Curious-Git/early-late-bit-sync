@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../early_late_bitsync.srcs/sources_1/new/early_late_bitsync.v" \
+"../../../../early_late_bitsync.srcs/sim_1/new/tb_early_late.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

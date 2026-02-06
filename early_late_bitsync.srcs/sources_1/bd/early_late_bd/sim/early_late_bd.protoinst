@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"early_late_bd": {
+			"proto_instances": {
+			}
+		}
+	}
+}

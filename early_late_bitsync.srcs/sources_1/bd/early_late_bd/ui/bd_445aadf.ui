@@ -1,0 +1,16 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y -40 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst early_late_bitsync_0 -pg 1 -lvl 2 -y -20 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 1 300
+preplace netloc util_vector_logic_0_Res 1 1 2 310 -100 800
+preplace netloc xlconstant_0_dout 1 1 1 290
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 290
+levelinfo -pg 1 -230 70 660 820 -top -210 -bot 310
+"
+}
+
